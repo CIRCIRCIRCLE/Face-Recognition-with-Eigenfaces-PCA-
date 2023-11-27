@@ -1,4 +1,5 @@
 # Face Recognition with Eigenfaces PCA   
+_The dataset comes from 'The Yale face database'_   
 ## 1.	Overview—Define Problem  
 Using principal component analysis (PCA) features to get eigenfaces and implement the function of face recognition (MLE, KNN included).   
 ## 2.	Data Description  
@@ -8,7 +9,8 @@ The training set consists of normal faces of 15 people and the test set consists
 This project is based on the lecture of principal component analysis.  
 For training images: Use the training images to produce a set of eigenfaces. Use Euclidean distance as distance measure for computing 𝑑𝑖. Choose the threshold T that produce the proper results.  
 For each test image: the image after subtracting the mean face, its PCA coefficients, the reconstructed face image, distances 𝑑𝑖, and classification result.  
-## 4.	Steps and Results(details can be seen in the .docx file)  
+## 4.	Steps and Results
+_details can be seen in the .docx file_
   1) read images  
   2) get mean&normalized faces  
   3) use PCA to generate eigenmatrix  
